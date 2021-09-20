@@ -1,4 +1,4 @@
-const Explorer = require('../Explorer');
+const Explorer = require('../Models/Explorer');
 
 let explorer = new Explorer();
 test('explorer name should be explorer', () => {

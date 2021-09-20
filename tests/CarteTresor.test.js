@@ -1,4 +1,4 @@
-const CarteTresor = require('../CarteTresor');
+const CarteTresor = require('../Models/CarteTresor');
 
 let tab = new CarteTresor();
 test('tab should be 3 x 3 full off .', () => {
