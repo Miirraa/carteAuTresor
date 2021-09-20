@@ -41,12 +41,8 @@ function main() {
         }
         let xd = explorer.positionX;
         let yd = explorer.positionY;
-        console.log(carte);
-        console.log(explorer);
         explorer.playExplorer(carte);
         carte.mooveExplorer(xd, yd, explorer.positionX, explorer.positionY);
-        console.log(carte);
-        console.log(explorer);
         saveFile(carte, explorer);
 
     } catch (err) {
